@@ -1,0 +1,20 @@
+.paragraphs {
+    background-color: #EB8A8A;
+    font-family: verdana, 'DejaVu Sans', sans-serif;
+}
+.AdjustFont{
+    font-size: 24px;
+}
+#second {
+    color: #1000f6 ;
+    font-size: 36px;
+}
+
+#third {
+    font-weight: bold;
+}
+
+#fourth{
+    background-color: #A5EF8A;
+    font-weight: bold;
+}
