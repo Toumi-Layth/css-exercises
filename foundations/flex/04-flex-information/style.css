@@ -19,8 +19,38 @@ img {
   left: 0;
   right: 0;
   height: 52px;
-  display: flex;
-  align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.footer,
+.container,
+.plants_container,
+.plant{
+  display: flex;
+}
+
+.footer,
+.container,
+.plant{
+  align-items: center;
+}
+
+.container,
+.plant{
+  flex-direction: column;
+}
+
+.plants_container{
+  flex-direction: row;
+  gap: 52px;
+}
+
+.plant{
+  text-align: center;
+  flex-basis: 200px;
+}
+
+.container{
+  gap: 32px;
 }
